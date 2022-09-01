@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+</head>
+<body>
+    <h1>Form tag example</h1>
+
+<form name="form-name"  
+    method="get"
+    action="jaggu.html"
+>
+    <!--  form controls  -->
+    
+    <fieldset>
+        <legend>REGISTRATION FORM</legend>
+        
+        <input type="text">
+        <label>name : </label>
+        <input type="text" name="name"/>
+        <input type="date" name="date"/>
+        <input type="checkbox"/>
+        <input type="radio"/>
+        <!-- <input type="email"/> -->
+        <input type="password"/>
+        <select>
+            <optgroup label="veg" >
+                <option>upma</option>
+                <option>chitranna</option>
+                <option>rice</option>
+            </optgroup>
+
+            <!-- <optgroup label="non-veg" > -->
+                <option>kabab</option>
+                <option>biriyani</option>
+                <option>wwdfs</option>
+            <!-- </optgroup> -->
+        </select>
+        <textarea placeholder="write ur comments" rows="3" cols="30"></textarea>
+
+        <button type="button">button</button>
+       
+        <button type="submit">submit button same tab</button>
+    </fieldset>
+
+</form>
+
+<div style="margin-top: 10px;">
+
+
+
+
+
+
+
+<form method="get" >
+    
+    NAME*    <input type="text" value="vallu name" name="username" placeholder="xyz@gmail.com" required/>
+    COLLEGE <input type="text"  name="clgname" size="50"/>
+    <input type="date" name="dob"/>
+    <input type="date" name="doj"/>
+    <input type="time" name="wakeup"/>
+    <input type="datetime-local" name="meeting"/>
+    <input type="number" max="8" min="-2"/>
+    <input type="range" max="100" min="50" name="raange"/>
+    
+    <button type="submit">sub</button>
+    
+    <input type="checkbox" checked />  batsmen
+    <input type="checkbox" /> bowler
+    <input type="checkbox" />alrounder
+    <input type="checkbox" />WK
+    <input type="checkbox" checked/>fielding
+    <input type="checkbox" disabled />coaching
+    
+    
+    
+    
+    <fieldset>
+    <legend align="center">Register Form</legend>
+        <input type="radio" name="r1" checked />Male
+        <input type="radio" name="r1"  />Female
+        <input type="radio" name="r1"  />Others
+    </fieldset>
+
+</form>
+
+
+</body>
+</html>

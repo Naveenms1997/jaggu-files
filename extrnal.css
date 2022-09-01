@@ -1,0 +1,77 @@
+h3{
+    color: rgb(12, 225, 40);
+}
+
+h1{
+    color: rgb(196, 17, 205);
+    padding: 5px;
+}
+
+
+.rcb{
+    color: rgb(16, 6, 6);
+    background-color: rgb(219, 21, 21);
+    padding: 5px;
+    border: 3px solid green;
+}
+
+#kingKohli{
+    color: rgb(63, 210, 30);
+}
+
+.mi{
+    color: rgb(226, 227, 252);
+    background-color: rgb(15, 22, 230);
+    padding: 5px;
+    border: 3px solid rgb(62, 228, 209);
+}
+
+.csk{
+    background-color: rgb(231, 208, 79);
+color: rgb(82, 59, 59);
+padding: 5px;
+border: 3px solid rgb(63, 86, 87);
+}
+
+#coolCaptain{
+    color: rgb(43, 107, 86);
+}
+
+.gt{
+    background-color: rgb(20, 227, 220);
+    color: rgb(19, 14, 14);
+    padding: 5px;
+    border: 3px solid rgb(224, 231, 33);
+}
+
+.captains{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.player{
+    padding: 25px;
+}
+
+
+
+.iplTeams{
+background-color: rgb(69, 69, 202);
+height: 200px; 
+/* width: 947px; */
+width: 100%;
+}
+.parent{
+
+    width: 50%;
+    background-color: rgb(109, 72, 143);
+}
+.children{
+    background-color: rgb(4, 145, 108);
+    width: 50%;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+}
