@@ -1,0 +1,53 @@
+.banner{
+    background-image: url('./banner-jaggu1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    position: relative;
+}
+
+.button{
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+
+    background-color: rgb(218, 228, 19);
+    padding: 15px 50px 15px 50px;
+    border: none;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.button:hover{
+    background-color: rgb(166, 174, 14);
+    padding: 21px 51px 21px 51px;
+    cursor: pointer;
+}
+
+.button:active{
+    background-color: rgb(188, 17, 43);
+    padding: 18px 48px 18px 48px;
+}
+
+
+
+.details{
+    /* border: 1px solid red; */
+    margin-top: 10px;
+   display: flex;
+
+}
+
+.img-details{
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.img{
+    display: inline-block;
+}
