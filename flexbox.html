@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLex properties</title>
+    <link href="./flexprops.css" rel="stylesheet" />
+    <style>
+        .sweet-box div, .snacks-box div, .kingfishers-box div{
+            border: 1px solid black;
+            padding: 10p x;
+            margin-bottom: 12px;
+            background-color: rgb(136, 127, 255);
+        }
+        .dabba{
+            border: 1px solid rgb(197, 17, 17);
+            background-color: aquamarine;
+            padding: 5px;
+        }
+
+         /* 
+              flex-direction === lover
+              align-items   === hendthi
+              justify content   === Ganda*
+
+         */
+
+        .sweet-box{
+            display: flex;
+
+            /*       LOVER      */
+
+            /* flex-direction: row;     */
+            /* flex-direction: column; */
+
+
+
+            /*       HENDATHI        */
+
+            /* align-items: flex-start; */
+            /* align-items: flex-end; */
+            /* align-items: stretch; */
+            
+         }
+
+        .sweet-1{
+            flex: 2;
+            order: 4;
+        }
+        .sweet-2{
+            flex: 2;
+            order: 3;
+        }
+        .sweet-3{
+            flex: 2;
+            order: 1;
+        }
+        .sweet-4{
+            flex: 2;
+            order: 2;
+        }
+
+        .snacks-box{
+            display: flex;
+
+            /* justify-content: flex-start; */
+            /* justify-content: flex-end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-around; */
+            justify-content: space-evenly;
+        }
+
+        .snack{
+            width: 20%;
+            /* flex-basis: 20%; */
+        }
+
+        .kingfishers-box{
+            display: flex;
+            flex-wrap: wrap; 
+        }
+
+        .kingfisher{
+            flex-basis: 14%;
+        }
+        
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="sweet-box">
+        <!-- <h3>container-1 div</h3> -->
+        <div class="sweet-1">
+            <h1>sweet 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatem molestiae iste quas adipisci.
+                In laborum cumque impedit aspernatur earum consectetur provident aperiam! Totam ducimus eius magni
+                voluptatem, amet odio!</p>
+        </div>
+        <div class="sweet-2">
+            <h1>sweet 2</h1>cing elit. Animi voluptatem molestiae iste quas adipisci.
+                impedit aspernatur earum consectetur provident aperiam! Totam ducimus eius magni
+                voluptatem, amet odio!</p>
+
+        </div>
+        <div class="sweet-3">
+            <h1>sweet 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatem molestiae iste quas adipisci.
+                In laborum cumque </p>
+        </div>
+        <div class="sweet-4">
+            <h1>sweet 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Animi voluptatem molestiae iste quas adipisci.
+                In laborum cumque Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, quod dicta laudantium ipsum provident a explicabo similique facilis quae quidem ducimus dignissimos aperiam ad voluptatum id, esse doloribus necessitatibus ea! impedit aspernatur earum consectetur provident aperiam! Totam ducimus eius magni
+                voluptatem, amet odio!</p>
+        </div>
+    </div>
+
+
+    <!-- second example start from here -->
+
+    <div class="snacks-box">
+        <!-- <h3>container-1 div</h3> -->
+        <div class="snack">
+            <h1>snack 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="snack">
+            <h1>snack 2</h1>           
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="snack">
+            <h1>snack 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+
+        </div>
+        <div class="snack">
+            <h1>snack 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        
+    </div>
+
+
+    <div class="kingfishers-box dabba">
+        <!-- <h3>container-1 div</h3> -->
+        <div class="kingfisher">
+            <h1>kingfisher 1</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 2</h1>           
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 3</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+        <div class="kingfisher">
+            <h1>kingfisher 4</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus fuga, voluptas necessitatibus assumenda nulla esse culpa officia optio. Veritatis, beatae quo mollitia rem necessitatibus consequatur dicta fuga odit voluptatum nostrum!</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
